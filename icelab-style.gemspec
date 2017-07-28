@@ -6,12 +6,11 @@ require "icelab/style/version"
 Gem::Specification.new do |spec|
   spec.name          = "icelab-style"
   spec.version       = Icelab::Style::VERSION
-  spec.authors       = ["Dylan Wolff"]
-  spec.email         = ["dylan@dylanwolff.com"]
+  spec.authors       = ["Icelab"]
+  spec.email         = ["hello@icelab.com.au"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Icelab shared style configurations."
+  spec.homepage      = "https://github.com/icelab/icelab-style"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
