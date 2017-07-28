@@ -1,0 +1,114 @@
+AllCops:
+  TargetRubyVersion: 2.4
+  Exclude:
+    - 'vendor/**/*'
+    - 'db/**/*'
+    - 'spec/**/*'
+    - 'node_modules/**/*'
+    - 'bin/*'
+    - 'lib/ext/dry-transaction.rb'
+    - 'Dangerfile'
+
+# Layout
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+Layout/IndentationWidth:
+  Enabled: false
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+Layout/SpaceInLambdaLiteral:
+  Enabled: false
+Layout/SpaceInsideBlockBraces:
+  EnforcedStyle: space
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+Layout/DotPosition:
+  Enabled: false
+
+# Lint
+Lint/ShadowingOuterLocalVariable:
+  Exclude:
+    - '**/routes/**/*'
+
+# Metrics
+Metrics/AbcSize:
+  # Make it large for now
+  Max: 40
+Metrics/ClassLength:
+  Enabled: false
+  Exclude:
+    - '**/application.rb'
+Metrics/CyclomaticComplexity:
+  # Make it large for now, reduce to default later
+  Max: 10
+Metrics/LineLength:
+  Enabled: false
+Metrics/MethodLength:
+  Enabled: false
+  # Make it large for now
+  Max: 20
+Metrics/BlockLength:
+  CountComments: false
+  Max: 30
+  Exclude:
+    - 'spec/**/*'
+    - 'umbrella/boot/*'
+    - '**/validation/**/*'
+    - '**/*schema*'
+    - '**/routes/**/*'
+    - '**/**/form.rb'
+    - 'lib/tasks/**/*'
+    - 'scripts/**/*'
+
+# Style
+Style/Alias:
+  EnforcedStyle: prefer_alias_method
+Style/BlockDelimiters:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Exclude:
+    - '**/routes/**/*'
+Style/Documentation:
+  Enabled: false
+Style/DoubleNegation:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/IfUnlessModifier:
+  Enabled: false
+Style/GuardClause:
+  Enabled: false
+Style/Lambda:
+  Enabled: false
+Style/LambdaCall:
+  Enabled: false
+Style/MethodName:
+  Enabled: false
+Style/MultilineBlockChain:
+  Enabled: false
+Style/NegatedIf:
+  Enabled: false
+Style/PercentLiteralDelimiters:
+  Enabled: false
+Style/RegexpLiteral:
+  EnforcedStyle: mixed
+Style/SingleLineBlockParams:
+  Enabled: false
+Style/SpecialGlobalVars:
+  Enabled: false
+Style/StabbyLambdaParentheses:
+  Enabled: false
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+Style/SymbolArray:
+  Enabled: false
+Style/SymbolProc:
+  Exclude:
+    - '**/application.rb'
+    - '**/routes/**/*'
+Style/TrailingCommaInArguments:
+  Enabled: false
+Style/TrailingCommaInLiteral:
+  Enabled: false
+Style/WordArray:
+  Enabled: false
