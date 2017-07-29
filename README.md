@@ -8,17 +8,13 @@ Add this line to your application's Gemfile:
 
 ```ruby
 group :development do
-  gem "icelab-style"
+  gem "icelab-style", git: "https://github.com/icelab/icelab-style"
 end
 ```
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install icelab-style
 
 ## Usage
 
