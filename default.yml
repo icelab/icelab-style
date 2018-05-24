@@ -62,7 +62,7 @@ Metrics/BlockLength:
 
 # Naming
 Naming/MethodName:
-  enabled: false
+  Enabled: false
 
 # Style
 Style/Alias:
@@ -113,6 +113,6 @@ Style/TrailingCommaInArguments:
 Style/TrailingCommaInArrayLiteral:
   Enabled: false
 Style/TrailingCommaInHashLiteral:
-Enabled: false
+  Enabled: false
 Style/WordArray:
   Enabled: false
