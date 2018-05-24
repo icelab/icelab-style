@@ -64,7 +64,7 @@ Metrics/BlockLength:
 Naming/MethodName:
   Enabled: false
 Naming/VariableNumber:
-  EnforcedStyle: snake_case
+  Enabled: false
 
 # Style
 Style/Alias:
@@ -127,8 +127,6 @@ Style/TrailingCommaInArguments:
 Style/TrailingCommaInArrayLiteral:
   Enabled: false
 Style/TrailingCommaInHashLiteral:
-  Enabled: false
-Style/VariableNumber:
   Enabled: false
 Style/WordArray:
   Enabled: false
