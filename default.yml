@@ -60,6 +60,10 @@ Metrics/BlockLength:
     - 'lib/tasks/**/*'
     - 'scripts/**/*'
 
+# Naming
+Naming/MethodName:
+  enabled: false
+
 # Style
 Style/Alias:
   EnforcedStyle: prefer_alias_method
@@ -81,8 +85,6 @@ Style/GuardClause:
 Style/Lambda:
   Enabled: false
 Style/LambdaCall:
-  Enabled: false
-Style/MethodName:
   Enabled: false
 Style/MultilineBlockChain:
   Enabled: false
@@ -108,7 +110,9 @@ Style/SymbolProc:
     - '**/routes/**/*'
 Style/TrailingCommaInArguments:
   Enabled: false
-Style/TrailingCommaInLiteral:
+Style/TrailingCommaInArrayLiteral:
   Enabled: false
+Style/TrailingCommaInHashLiteral:
+Enabled: false
 Style/WordArray:
   Enabled: false
