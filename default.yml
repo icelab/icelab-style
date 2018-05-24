@@ -74,9 +74,15 @@ Style/BlockDelimiters:
 Style/ClassAndModuleChildren:
   Exclude:
     - '**/routes/**/*'
+Style/ColonMethodCall:
+  Enabled: false
 Style/Documentation:
   Enabled: false
 Style/DoubleNegation:
+  Enabled: false
+Style/FormatString:
+  Enabled: false
+Style/FormatStringToken:
   Enabled: false
 Style/FrozenStringLiteralComment:
   Enabled: false
@@ -92,10 +98,16 @@ Style/MultilineBlockChain:
   Enabled: false
 Style/NegatedIf:
   Enabled: false
+Style/NumericPredicate:
+  Enabled: false
+Style/ParenthesesAroundCondition:
+  Enabled: false
 Style/PercentLiteralDelimiters:
   Enabled: false
 Style/RegexpLiteral:
   EnforcedStyle: mixed
+Style/Semicolon:
+  AllowAsExpressionSeparator: true
 Style/SingleLineBlockParams:
   Enabled: false
 Style/SpecialGlobalVars:
@@ -115,6 +127,8 @@ Style/TrailingCommaInArguments:
 Style/TrailingCommaInArrayLiteral:
   Enabled: false
 Style/TrailingCommaInHashLiteral:
+  Enabled: false
+Style/VariableNumber:
   Enabled: false
 Style/WordArray:
   Enabled: false
