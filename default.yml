@@ -63,6 +63,8 @@ Metrics/BlockLength:
 # Naming
 Naming/MethodName:
   Enabled: false
+Naming/VariableNumber:
+  EnforcedStyle: snake_case
 
 # Style
 Style/Alias:
